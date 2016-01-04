@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXPopView"
-  s.version  = "0.1"
+  s.version  = "0.2"
   s.license  = "MIT"
   s.summary  = "RXPopView is a simple pop view"
   s.homepage = "https://github.com/xzjxylophone/RXPopView"

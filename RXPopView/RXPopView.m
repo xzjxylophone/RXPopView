@@ -28,8 +28,9 @@
         self.bottomTrianglePoint = self.trianglePoint;
         self.rightTrianglePoint = self.trianglePoint;
         self.borderWidth = 0;
+        self.fillColor = [UIColor greenColor];
         self.cornerRadius = 0;
-        self.borderColor = [UIColor clearColor];
+        self.borderColor = [UIColor grayColor];
         self.e_RXPopViewStyle = kE_RXPopViewStyle_TopCenter;
         self.edgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
         self.backgroundView = [UIView new];
@@ -48,7 +49,7 @@
     CGFloat height = self.frame.size.height;
     CGContextRef context = UIGraphicsGetCurrentContext();
     [self.borderColor setStroke];
-    [[UIColor greenColor] setFill];
+    [self.fillColor setFill];
     
     CGFloat halfBorderWidth = self.borderWidth / 2.0f;
     CGFloat leftOffset = self.trianglePoint.x;

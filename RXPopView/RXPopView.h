@@ -34,6 +34,8 @@ typedef enum E_RXPopViewStyle{
 @property (nonatomic, assign) CGFloat cornerRadius;
 // default grayColor
 @property (nonatomic, strong) UIColor *borderColor;
+// default greenColor
+@property (nonatomic, strong) UIColor *fillColor;
 // default is kE_RXPopViewStyle_TopCenter
 @property (nonatomic, assign) E_RXPopViewStyle e_RXPopViewStyle;
 // default {0,0,0,0}, 非center才有效
